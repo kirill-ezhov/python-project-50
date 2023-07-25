@@ -20,6 +20,8 @@ jobs:
         run: |
           pip install poetry
           make install
+          # Установка Flake8
+          poetry add flake8
       - name: Run linter
         run: |
           make lint
