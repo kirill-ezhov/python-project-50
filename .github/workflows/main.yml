@@ -20,18 +20,17 @@ jobs:
         run: |
           pip install poetry
           make install
-          # Установка Flake8
-          poetry add flake8
       - name: Run linter
         run: |
           make lint
       - name: Run Pytest
         run: |
           make check
-      - name: Upload Test Coverage to CodeClimate
+      - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v3.2.0
         if: github.ref_name == 'main'
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.TEST_REPORTER_ID2 }}
         with:
+          CoverageCommand: make tests-coverage
           debug: true
