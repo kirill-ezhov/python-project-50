@@ -6,4 +6,7 @@
 [![Test Coverage](https://codeclimate.com/github/kirill-ezhov/python-project-50/badges/coverage.svg)](https://codeclimate.com/github/kirill-ezhov/python-project-50/coverage)
 
 Comparison of flat files
-<a href="https://asciinema.org/a/hbglHirJiANSAlLBxbkOQ6O4p" target="_blank"><img src="https://asciinema.org/a/hbglHirJiANSAlLBxbkOQ6O4p.svg" /></a>
+<a href="https://asciinema.org/a/qEDUVP0FpnOnObWbGPe7pRf9l" target="_blank"><img src="https://asciinema.org/a/qEDUVP0FpnOnObWbGPe7pRf9l.svg" /></a>
+
+
+<a href="https://asciinema.org/a/lZmWiKEpZtILTnoy4y81wWZna" target="_blank"><img src="https://asciinema.org/a/lZmWiKEpZtILTnoy4y81wWZna.svg" /></a>
